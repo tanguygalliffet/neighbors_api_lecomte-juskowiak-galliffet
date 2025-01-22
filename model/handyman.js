@@ -1,7 +1,7 @@
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 
-let NeighborSchema = Schema({
+let HandyManSchema = Schema({
     name: String,
     avatarUrl: String,
     aboutMe: String,
@@ -12,4 +12,4 @@ let NeighborSchema = Schema({
 });
 
 // C'est à travers ce modèle Mongoose qu'on pourra faire le CRUD
-module.exports = mongoose.model('Neighbor', NeighborSchema);
+module.exports = mongoose.model('HandyMan', HandyManSchema);
